@@ -1,0 +1,19 @@
+= README
+
+HTML slides can be produced with https://asciidoctor.org/[asciidoctor]. Use
+
+[source,bash]
+---
+asciidoctor MobileDataCollection.adoc
+---
+
+A pdf version can be generated with
+https://docs.asciidoctor.org/pdf-converter/latest/[asciidoctor-pdf]. Use
+
+[source,bash]
+---
+asciidoctor-pdf -a pdf-theme=tp -a pdf-themesdir=resources/themes \
+-a pdf-fontsdir=resources/IntelOneMonoTTFFonts MobileDataCollection.adoc
+---
+
+The materials are available under the https://www.gnu.org/licenses/fdl-1.3.html[GFDL-1.3-or-later].
